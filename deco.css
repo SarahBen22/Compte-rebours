@@ -1,0 +1,124 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+body,html,.tout{
+  height: 100%;
+  background-color: black;
+}
+
+
+
+
+.phone {
+background-image: url("phone.jpg");
+background-repeat: no-repeat;
+background-size:100%;
+position:absolute;
+height:100%;
+width:100%;
+top:0px;
+left:0px;
+
+}
+
+.tout{
+  position:relative;
+;
+
+}
+
+#texto{
+position: absolute;
+text-align: center;
+top:50px;
+width:100%;
+
+font-family: 'Lobster', cursive;
+font-size: 50px;
+z-index: 1;
+}
+
+
+
+
+#days{
+  position: absolute;
+  text-align: center;
+  top:380px;
+  width:15%;
+  left:240px;
+
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+  z-index: 1;
+  }
+
+#hours{
+  position: absolute;
+  text-align: center;
+  top:380px;
+  width:15%;
+  left:450px;
+
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+  z-index: 1;
+  text-shadow:3px;
+
+}
+
+#minutes{
+  position: absolute;
+  text-align: center;
+  top:380px;
+  width:15%;
+  left:660px;
+
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+  z-index: 1;
+
+}
+
+#seconds{
+  position: absolute;
+  text-align: center;
+  top:380px;
+  width:15%;
+  left:900px;
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+  z-index: 1;
+
+}
+
+#play{
+border: 4px solid slateGray;
+top:146px;
+left:800px;
+height: 40px;
+width: 110px;
+border-style: outset;
+z-index:1;
+position: absolute;
+font-size: 30px;
+text-align: center;
+background-color:slateGray;
+
+}
+
+#stop{
+border: 4px solid LightSlateGray;
+border-style: outset;
+top:146px;
+left:980px;
+height: 40px;
+width: 110px;
+z-index:1;
+position: absolute;
+font-size: 30px;
+text-align: center;
+background-color:LightSlateGray; 
+}
