@@ -12,9 +12,9 @@ jQuery(function($){
 
   // compter chaque seconde
   var t = setInterval(setDate,1000);
-
-function setDate(){ // calcule et affiche la distance entre la date demandée et celle d'aujourd'hui
   var now= new Date();
+function setDate(){ // calcule et affiche la distance entre la date demandée et celle d'aujourd'hui
+now.setTime(now.getTime()+1000);
   var s=(launch.getTime() -now.getTime())/1000; //getTime récupère le temps ici en millisecondes
 
 
